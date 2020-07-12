@@ -1,0 +1,279 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	width: 100%;
+	margin: auto;
+}
+/*-----------imagen de fondo---------*/
+.imagenes{
+	width: 100%;
+	height: 200px;
+}
+/*-----------menu de navegacion---------*/
+.menu{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-flow: row wrap;
+	background:rgba( 0,0,0,.9);
+}
+
+.imag2{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 3px;
+}
+
+.imagenes2{
+	width: 80px;
+	height: 60px;
+	border-radius: 5px;
+}
+
+.title{
+	font-family: Impact;
+	margin-left: 5px;
+	font-size: 25px;
+	color:#fff;
+}
+
+.menudenav{
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.navegacion{ 	
+	color: #000;
+	padding: 5px 3px;
+	margin: 3px;
+	background: #fff;
+	border-radius:2px;
+}
+/*--------------------seccion 1---------------------*/
+.container1{
+	background: url("../imagenes/imag2.jpg");
+	background-size: 100%;
+	width: 100%;
+	height:auto;
+	display: flex;
+	justify-content: center;
+	padding: 25px 5px;
+}
+
+.articulo1{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 80%;
+	margin:50px;
+}
+
+.title1{
+	padding: 20px;
+	text-align: center;
+	font-family: arial black;
+	font-size: 40px;
+	color: #fff;
+    text-shadow: 3px 3px 2px #000;
+}
+
+.frase1{
+	padding: 15px;
+	font-family: calibri;
+	font-size: 26px;
+	text-align: center;
+	color: #fff;
+    text-shadow: 2px 2px #000;
+}
+
+.boton1{
+	display: flex;
+	justify-content: center;
+}
+
+.boton{
+	font-weight: bolder;
+	border:none;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.title2{
+	font-size: 28px;
+}
+/*--------------------seccion 2---------------------*/
+.container2{
+	background: #D4DDE0;
+	width: 100%;
+	height:auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 55px 10px;
+}
+
+.articulo2{
+	border-radius: 5px;
+	padding: 30px 20px 20px 30px;
+	text-align: center;
+	background: #ffffff90;
+	width: 600px;
+	box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.4);
+}
+/*--------------------seccion 3---------------------*/
+.container3{
+	background: url(../imagenes/imag5.jpg);
+	background-size: 100%;
+	width: 100%;
+	height:auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 35px 5px;
+}
+
+.login{
+	margin:40px;
+	border-radius: 5px;
+	padding: 25px;
+	width: 340px;
+	height: 380px;
+	background: #ffffff90;
+	box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.6);
+}
+
+.icono{
+	display: flex;
+	justify-content: center;
+}
+
+.iconodel{
+	font-size: 80px;
+}
+
+input{
+	width: 100%;
+}
+
+input[type="text"], input[type="password"]{
+	padding: 2px 5px;
+}
+
+label{
+	font-weight: bolder;
+	margin-bottom: 0px; 
+}
+
+.buttoni,.buttonr{
+	border:none;
+	width: 200px;
+}
+
+.botonesdei{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.boton1{
+	border:none;
+	width: 100%;
+	margin-top: 7px;
+	border-radius: 5px;
+}
+
+.Olvidastec{
+	margin-top: 5px;
+	font-size: 14px;
+}
+/*--------------------seccion 4---------------------*/
+.container4{
+	background: url(../imagenes/imag7.jpg);
+	background-size: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	height:auto;
+	padding: 55px 10px;
+}
+
+.texto{
+	font-family: Elephant;
+	font-size:20px;
+	padding: 0px 40px 30px 40px;
+}
+
+.articulo4{
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row wrap;
+}
+.caja1{
+	margin:10px;
+	width:400px;
+	height:270px;
+	background:rgba(233, 233, 233, .7);
+	box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.9);
+	border-radius: 5px;
+}
+
+/*--------------------seccion 5---------------------*/
+.container5{
+	background:#1975F0;
+	width: 100%;
+	height:auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 25px;
+}
+
+.textoc{
+	margin:35px 0px 10px 0px;
+}
+
+.icono2{
+	font-size: 30px;
+}
+
+.articulo5{
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row wrap;
+}
+
+.caja2{
+	margin:10px;
+	display: flex;
+	flex-direction: column;
+	width: 280px;
+	height: 350px;
+	background:rgba(233, 233, 233, .5);
+	box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.4);
+	border-radius: 5px;
+}
+/*-------------------Footer-------------------*/
+
+.footer1{
+	background: #E9E6E6;
+	width: 100%;
+	height: 70px;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	padding: 30px;
+}
+
+/*-------------------@mediaquery----------------
+
+@media (max-width:500px){
+	.articulo4{
+		flex-direction: column;
+	}
+}
+*/
